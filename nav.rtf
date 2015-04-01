@@ -1,0 +1,119 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red29\green29\blue29;}
+\margl1440\margr1440\vieww13060\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 /common\
+	body-footer.php <- Footer content ->\
+	body-header.php <- Header Info ->\
+	head-meta.php <- head info - css sheets ->\
+	main.php \
+\
+/contact\
+	/images\
+		fblogo.png\
+		gmail.png\
+		wordpress.png\
+		youtube.png\
+	index.php\
+\
+/courses\
+	/art74 <- intro to digital media ->\
+		/index.php\
+		/lietome\
+			/images\
+				cherposter.png\
+			index.html\
+			\
+		/mashup\
+			/images\
+				mashup.jpg\
+			index.html\
+			\
+		/minecraft\
+			/images\
+				m1datavel.png\
+				m2worldedit.png\
+				m3commands.png\
+				m4carrpaint.jpg\
+			index.html\
+			/video\
+				code.mp4\
+				create.mp4\
+				demo1.mp4\
+				mine.mp4\
+		/writings\
+			/lev\
+				index.php\
+			/misunderstanding\
+				index.php\
+	/art75 <- intro to digital video ->\
+		/frames\
+			index.php\
+			/video\
+				frames.mp4\
+		/index.php\
+		/nonnarrative\
+			index.php\
+			/video\
+				nonnarrative.mp4\
+		/seldimage\
+			index.php\
+			/video\
+				selfimage.mp4\
+	/art100w <- Writing for Art ->\
+		/writings\
+			/barbie\
+				/images\
+				/index.php\
+				\
+	/art 2025 <- Basics of new media ->\
+		/images\
+			pwhand.png\
+			pwperspective.png\
+			pwplant.png\
+			pwzorn.png\
+		/index.php\
+		\
+	/art2810 <- Principles of Design ->\
+		/images\
+			pwdbulb.png\
+			pwdnye.png\
+			pwdtools1.png\
+			pwdtools2.png\
+		/index.php\
+		\
+	/art2830 <- Web Design ->\
+		/daedalus <\'97 entire website included\
+		/index.php\
+		\
+\
+/css\
+	portmain.css\
+\
+/icons\
+\
+/images\
+\
+index.php\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sl320
+
+\f1\fs26 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <?php require('common/main.php') ?>	at the top of every page before anything else
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\pard\pardeftab720\sl320
+
+\f1\fs26 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <?php import('head-meta.php') ?>		just inside head tag (should include all info in head)\
+<?php import('body-header.php') ?>		just inside body tag - top (page header/logo/nav)\
+<?php import('body-footer.php') ?>		just inside body tag - bottom (copyright/date edited)
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+}

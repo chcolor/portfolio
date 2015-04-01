@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+ @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+ 
+ 
+* {
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6, p, address, pre, ol, ul {
+margin-bottom: 1em;	
+}
+
+h1 {
+	font-size: 300%;	
+}
+
+h1.small {
+margin-bottom: 0;	
+}
+
+header, nav {
+	display:block;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../images/traingles.jpg);
+	background-attachment: fixed;
+	background-color: #000000;
+	color:#e5e5e5;
+	padding-bottom: 3em;
+}
+
+p {
+	line-height: 1.6em;
+	margin-bottom
+}
+
+header img {
+	margin: -1px 2ex 0.5em 28px;
+}
+
+#primary_nav_wrap {
+	margin-top:15px;
+	display:block;	
+}
+
+#primary_nav_wrap ul {
+	list-style:none;
+	position:relative;
+	margin:0;
+	padding:0;
+  	border: 1px solid #FFD169;
+	border-width: 1px 0;
+	background-color: #000000;
+	z-index: 5;
+	text-align: center;
+}
+
+#primary_nav_wrap ul li {
+	position:relative;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+#primary_nav_wrap ul a {
+	display:block;
+	color:#69c2db;
+	text-decoration:none;
+	font-weight:700;
+	line-height:60px;
+	padding:0 30px;
+}
+
+
+
+#primary_nav_wrap ul li.current-menu-item {
+	background-color:#464646;
+}
+
+#primary_nav_wrap ul ul li.current-menu-item {
+	background-color:#FFA240;
+}
+
+#primary_nav_wrap ul li:hover {
+	background:#FFD169;
+}
+
+#primary_nav_wrap ul li:hover a {
+	color:black;
+}
+
+#primary_nav_wrap ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#FFD169;
+	padding:0;
+	text-align:left;
+}
+
+#primary_nav_wrap ul ul li {
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul li:hover {
+	background:white;
+}
+
+#primary_nav_wrap ul ul a {
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul {
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display:block;
+	opacity: 0.9;
+}
+
+
+
+/* unvisited link */
+nav a:link {
+	color: #FFD544;
+	text-decoration: none;
+}
+
+/* visited link */
+nav a:visited {
+	color: #A66201;
+}
+
+/* mouse over link */
+nav a:hover {
+	color: #FFB600;
+	text-decoration: underline;
+}
+
+/* selected link */
+nav a:active {
+	color: #FFBE00;
+}
+
+footer {
+	background-color: rgba(0,0,0, 0.6);
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.5em
+}
+
+footer > * {
+	margin-bottom: 0;	
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center {
+	padding: 0px 0 30px 0;	
+}
+
+video.center {
+	padding: 0px 0 30px 0;
+}
+
+.current {
+	text-align: center;
+}
+
+.current img {
+	padding: 15px 0;	
+}
+
+.head {
+	float: left;
+	background-color: #000000;
+	padding: 0.25em 1em;	
+	margin: 2em 1em;
+}
+
+
+.self {
+	float: left;
+	margin: 0em 1em 0.5em 0em;
+}
+
+.txtblk {
+	width: 600px;	
+}
+
+.image-contain {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+
+.wrapper {
+	background-color: #000000;
+	padding: 2em 2em;	
+	width: 950px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid cyan;
+}
