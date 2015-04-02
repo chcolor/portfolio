@@ -1,33 +1,37 @@
-<?php require('common/main.php') ?>
+<?php require('../../../../common/main.php') ?>
 <!doctype html>
 
 <html lang="en">
-<head>
+	<head>
     	<?php import('head-meta.php') ?>
     
 </head>
 
 <body>
-<?php import('body-header.php') ?>
 
+<header>
+	<?php import('body-header.php') ?>
+    
+</header>
 <article>
- <div class="wrapper">  
- <div class="current">
- <h1>Intro to Digital Media</h1> 
+ <div class="wrapper"> 
+ <div class="current">  
+ <h1> Remix </h1>
  
- <a href="mashup.html"><img src="images/mashicon.png"></a>
- <a href="lietome.html"><img src="images/chericon.png"></a>
- <a href="minecraft.html"><img src="images/carricon.png"></a></div>
+ <video class="center" height="450" controls>
+  <source src="video/selfimage.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 <div>
 
 
-<p class="txtblk center">This work was completed in response to assignments given by Ricardo Cortez in ART 74 - Intro to Digital Media Art at San Jose State University. It was completed in the fall term of 2014. For more information on each assignment, please follow the links provided. There you will find a description of the assignment as well as an artist statement for each work.</p></div>
+<p class="txtblk center">I created this video in response to a prompt to remix videos from previous projects. I used a portion of the very first video I took and parts of the self esteem video from the Remix project to create this piece obout self-esteem.</p></div>
 </div> <!-- close wrapper -->
 </article>
 
 
-
+<?php import('body-footer.php') ?>
 </body>
     
 </html>

@@ -1,46 +1,14 @@
+<?php require('/common/main.php') ?>
 <!doctype html>
 
 <html lang="en">
 <head>
-    	<meta charset="utf-8">
-    	<title>CHColor</title>
-    
-    	<link href="css/portmain.css" rel='stylesheet' type='text/css'> 
+    	<?php import('head-meta.php') ?>
     
 </head>
 
 <body>
-
-<header>
-	<div><img src="images/trilogotxt.png"></div>
-    
-  <nav id="primary_nav_wrap">
-<ul>
-  <li class="current-menu-item"><a href="index.html">Home</a>
-  </li><li><a href="currentwork.html">Current Work</a>
-    <ul>
-      <li><a href="mashup.html">Mashup</a></li>
-      <li><a href="lietome.html">Lie To Me</a></li>
-      <li><a href="minecraft.html">Final Project - Minecraft</a></li>
-    </ul>
-  </li><li><a href="previouswork.html">Previous Work</a>
-    <ul>
-      <li><a href="newmedia.html">Basics of New Media</a></li>
-      <li><a href="design.html">Principles of Design</a></li>
-      <li><a href="photo.html">Digital Photography</a></li>
-    </ul>
-  </li><li><a href="essays.html">Writings</a>
-    <ul>
-      <li><a href="reading.html">Response to Readings</a></li>
-      <li><a href="guest.html">Guest Speakers</a></li>
-    </ul>
-  </li><li><a href="contact.html">Contact Me</a></li>
-</ul>
-</nav>
-
-
-
-</header>
+<?php import('body-header.php') ?>
 <article>
 
 <div class="wrapper">
@@ -58,10 +26,7 @@
 
 </div><!-- close wrapper -->
 </article>
-<footer>
-<address>Updated 12 December, 2014<br>
-    by Christine Huffman </address>
-</footer>
+<?php import('body-footer.php') ?>
 </body>
     
 </html>

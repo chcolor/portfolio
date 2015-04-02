@@ -1,9 +1,9 @@
 <header>
-	<div><img src="images/trilogotxt.png"></div>
+	<div><img src="/images/trilogotxt.png"></div>
     
   <nav id="primary_nav_wrap">
 <ul>
-  <li><a href="/index.php">Home</a>
+  <li><a href="/">Home</a>
   </li><li><a href="/courses/2014-2015/art74/">Intro to Digital Media</a>
     <ul>
       <li><a href="/courses/2014-2015/art74/mashup/">Mashup</a></li>
@@ -26,9 +26,9 @@
     <ul>
       <li><a href="/courses/2014-2015/art74/writings/lev/">Playing Lev Manovich</a></li>
       <li><a href="/courses/2014-2015/art74/writings/misunderstanding/">Ways of Misunderstanding</a></li>
-      <li><a href="/courses/2014-2015/art100w/writings/barbie/">Barbie - The Original Anti-Feminist</a></li>
+      <li><a href="/courses/2014-2015/art101w/writings/barbie/index.php">Barbie - The Original Anti-Feminist</a></li>
     </ul>
-  </li><li><a href="/contact">Contact Me</a></li>
+  </li><li><a href="/contact/">Contact Me</a></li>
 </ul>
 </nav>
 </header>

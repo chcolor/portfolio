@@ -1,4 +1,4 @@
-<?php require('common/main.php') ?>
+<?php require('../../../../common/main.php') ?>
 <!doctype html>
 
 <html lang="en">

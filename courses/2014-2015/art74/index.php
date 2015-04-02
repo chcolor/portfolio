@@ -1,4 +1,4 @@
-<?php require('common/main.php') ?>
+<?php require('../../../common/main.php') ?>
 <!doctype html>
 
 <html lang="en">
@@ -15,9 +15,9 @@
  <div class="current">
  <h1>Intro to Digital Media</h1> 
  
- <a href="mashup.html"><img src="images/mashicon.png"></a>
- <a href="lietome.html"><img src="images/chericon.png"></a>
- <a href="minecraft.html"><img src="images/carricon.png"></a></div>
+ <a href="mashup/"><img src="images/mashicon.png"></a>
+ <a href="lietome/"><img src="images/chericon.png"></a>
+ <a href="minecraft/"><img src="images/carricon.png"></a></div>
 
 <div>
 
@@ -27,7 +27,7 @@
 </article>
 
 
-
+<?php import('body-footer.php') ?>
 </body>
     
 </html>
